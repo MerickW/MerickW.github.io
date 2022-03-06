@@ -1,0 +1,514 @@
+/*------------------------------------------------------------------------------
+	WEB : page design
+------------------------------------------------------------------------------*/
+
+
+
+/*==============================
+	Layout
+==============================*/
+
+Body & Wrapper */
+.wrapper {
+	min-height: 100vh;
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+}
+
+
+
+
+
+/*==============================
+	Style
+==============================*/
+
+/* Set font */
+* {
+	font-family: 'Ubuntu', 'Arial', 'Helvetica', 'Palatino', 'fredericka', sans-serif;
+}
+
+/* Body & Wrapper */
+body {
+	background-color: #FBFBFB;
+	padding: 0;
+	margin: 0;
+}
+.wrapper {
+	background-color: #F6F6F6;
+	/* padding: 0 10px; */
+}
+
+
+/* HEADER */
+
+header {
+	width: 80vw;
+	padding: 0;
+	margin: 0 auto 0 auto;
+}
+/* TOP HEADER */
+.topHeader {
+	display: flex;
+	align-items: center;
+	border-style: solid solid solid solid;
+	border-width: 0.1vw;
+	border-color: #AAAAAA44;
+	justify-content: space-between;
+	background-color: #AAAAAA11;
+}
+
+.left p {
+	color: #AAAAAA;
+	font-size: 1vw;
+	font-family: Helvetica;
+}
+
+
+
+.phone {
+	align-items: center;
+	display: inline-block;
+	border-style: none solid none none;
+	border-color: #AAAAAA44;
+	border-width: 0.1vw;
+	padding: 0 1vw 0 0.5vw;
+	margin: 0;
+	/* background-color: red; */
+}
+
+.in {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	/* background-color: yellow; */
+}
+
+.icons img {
+	width: 2vw;
+	margin: 0;
+	/* background-color: blue; */
+}
+
+.mail {
+	display: inline-block;
+	align-items: center;
+	border-style: none solid none none;
+	border-color: #AAAAAA44;
+	border-width: 0.1vw;
+	padding: 0 1vw 0 0.5vw;
+	margin: 0;
+}
+
+#sociaux img {
+	border-style: none none none solid;
+	border-color: #AAAAAA44;
+	border-width: 0.1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	margin: 0;
+	background-color: #AAAAAA11;
+}
+#sociaux img:hover {
+	border-style: none none none solid;
+	border-color: #AAAAAA44;
+	border-width: 0.1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	margin: 0;
+	background-color: rgba(39, 105, 176, 0.94);
+}
+
+#sociaux li a {
+	/* background-color: pink; */
+	margin: 0;
+	padding: 0;
+}
+
+/* BOTTOM HEADER */
+.bottomHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+.bottomHeader h2 {
+	/* color: rgba(245, 101, 39, 0.9); */
+	font-size: 2.5vw;
+	color: rgba(39, 105, 176, 0.94);
+	font-style: italic;
+	font-weight: bolder;
+	padding: 1vh 0 1vh 1vw;
+	margin: 0;
+}
+
+.bottomHeader ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	/* background-color: pink; */
+}
+
+.bottomHeader li {
+	display: inline-block;
+	padding: 3vh 1vw 3vh 0.5vw;
+	background-color: #FBFBFB;
+	margin: 0;
+	/* background-color: orange; */
+}
+
+.bottomHeader li:hover {
+	background-color: rgba(39, 105, 176, 0.94);
+	transition: 200ms;
+}
+
+.bottomHeader a {
+	color: #444444;
+	text-decoration: none;
+	font-size: 1.2vw;
+	padding: 1vw;
+	/* background-color: grey; */
+}
+
+
+/* BANNER */
+
+.banner {
+	background-image: url('../design/techno.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	width: 100vw;
+	/* padding: 0 20vw 5vh 20vw; */
+	margin: 0 auto 0 auto;
+}
+
+.banner h1 {
+	color: #FFFFFF;
+	font-size: 4vw;
+	font-weight: bolder;
+	text-transform: uppercase;
+	width: 80vw;
+	padding: 20vh 0 0 0;
+	/* text-align: center; */
+	margin: 0 auto 0 auto;
+}
+
+.banner span {
+	color: rgba(39, 105, 176, 0.94);
+}
+
+.banner h4 {
+	color:  #FFFFFF;
+	font-size: 2vw;
+	font-weight: normal;
+	width: 55vw;
+	margin: 0 auto 0 auto;
+	padding: 4vh 0 0 0;
+}
+
+.banner p {
+	color: #FFFFFF;
+	font-size: 1.5vw;
+	padding: 9vh 0 15vh 0;
+	width: 60vw;
+	margin: 0 auto 0 auto;
+}
+
+.banner a {
+	background-color: rgba(39, 105, 176, 0.94);
+	padding: 1vw;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1.5px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+section article {
+	/* background-color: yellow; */
+	width: 60vw;
+	margin: 0 auto 0 auto;
+	padding: 0 0 10vh 0;
+}
+section article {
+	/* background-color: yellow; */
+	width: 60vw;
+	margin: 0 auto 0 auto;
+	padding: 0 0 10vh 0;
+}
+
+
+.aboutRodia h2 {
+	text-align: center;
+	font-size: 3vw;
+	font-weight: normal;
+	padding: 2vh 0 2vh 0;
+}
+
+.aboutRodia img {
+	width: 23vw;
+	object-fit: cover;
+	display: inline-block;
+}
+
+.textRight {
+		display: inline-block;
+		width: 34vw;
+		vertical-align: top;
+		padding: 0 1vw 0 1vw;
+}
+
+.textRight p {
+	/* background-color: blue; */
+	font-size: 1vw;
+	margin: 0 0 1.5vh 0;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+.slogan {
+	background-image: url('../design/call-to.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	width: 100vw;
+	/* padding: 0 20vw 0 20vw; */
+	/* margin: 0 auto 0 auto; */
+	padding: 10vh 0 10vh 0;
+}
+
+.slogan h4 {
+	color:  #FFFFFF;
+	font-size: 2vw;
+	width: 80vw;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	/* padding: 10vh 0 10vh 0; */
+	font-family: Helvetica;
+}
+
+/* OUR TEAM */
+.ourTeam h2 {
+	text-align: center;
+	font-size: 3vw;
+	font-weight: normal;
+	padding: 2vh 0 0 0;
+	margin-bottom: 0;
+}
+
+.ourTeam h4 {
+	text-align: center;
+	margin-top: 0;
+	font-size: 1.5vw;
+	font-weight: normal;
+	padding: 0 0 4vh 0;
+}
+
+.ourTeam ul {
+	list-style: none;
+	/* background-color: blue; */
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.ourTeam li {
+	display: inline-block;
+	width: 12vw;
+	/* background-color: yellow; */
+	margin: 0 1vw 0 1vw;
+}
+
+.ourTeam li img {
+	width: 12vw;
+	border-radius: 1vw;
+}
+.ourTeam li p {
+	/* background-color: red; */
+	text-align: center;
+	font-size: 1.2vw;
+	font-weight: bold;
+}
+
+.ourTeam span {
+	font-style: italic;
+	font-size: 1vw;
+	font-family: Helvetica;
+}
+
+
+/* SERVICE */
+
+.service h2 {
+	text-align: center;
+	font-size: 3vw;
+	font-weight: normal;
+	padding: 2vh 0 2vh 0;
+}
+
+.service h4 {
+	text-align: center;
+	margin-top: 0;
+	font-size: 1.5vw;
+	font-weight: normal;
+	padding: 0 0 4vh 0;
+}
+
+.service ul {
+	list-style: none;
+	/* background-color: blue; */
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+
+.service li {
+	/* background-color: blue; */
+	width: 17.5vw;
+	height: 40vh;
+	vertical-align: top;
+	display: inline-block;
+	margin: 0 1vw 0 1vw;
+}
+
+.service li:hover {
+	/* background-color: blue; */
+	width: 17.5vw;
+	height: 40vh;
+	vertical-align: top;
+	display: inline-block;
+	margin: 0 0.5vw 0 0.5vw;
+	background-color: rgba(39, 105, 176, 0.94);
+	border-radius: 2vw;
+}
+
+
+.service img {
+	/* outline: solid #000000 0.2vw; */
+	border-radius: 1000vw;
+	width: 12vw;
+}
+
+.service a {
+	/* background-color: yellow; */
+	font-style: italic;
+	font-family: Arial;
+	font-size: 1.2vw;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+	background-color: #00000088;
+	margin: 0;
+}
+
+footer .topFooter ul {
+	list-style: none;
+	width: 80vw;
+	margin: 0 auto 0 auto;
+	/* background-color: red; */
+	text-align: center;
+}
+
+footer .topFooter li {
+	/* background-color: yellow; */
+	width: 20vw;
+	height: 30vh;
+	display: inline-block;
+	vertical-align: top;
+	vertical-align: center;
+}
+
+footer .topFooter li h5 {
+	/* background-color: blue; */
+	font-size: 1.2vw;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+footer .topFooter li p {
+	/* background-color: orange; */
+	margin: 0;
+	font-size: 1vw;
+	color: #444444;
+	padding: 1vh 0 0 0;
+}
+
+footer .topFooter li a {
+	margin: 0;
+	font-size: 1vw;
+	color: #444444;
+	text-decoration: none;
+}
+
+footer .topFooter li a:hover {
+	margin: 0;
+	font-size: 1vw;
+	transition: 300ms;
+	color: rgba(39, 105, 176, 0.94);
+	text-decoration: none;
+}
+
+footer .topFooter li span {
+	/* background-color: purple; */
+	color: rgba(39, 105, 176, 0.94);
+	display: block;
+}
+
+.tweet {
+	font-style: italic;
+}
+
+footer .topFooter li img {
+	width: 3vw;
+	margin: 0;
+}
+
+footer input {
+	height: 4vh;
+	width: 7vw;
+	display: inline-block;
+	border-radius: 3vw;
+}
+
+/*==============================
+	Classes
+==============================*/
+
+
+
+
+
+/*==============================
+	Responsive design
+==============================*/
+
+/* Media query : mobile */
+@media (max-width: 600px) {
+
+
+}
+
+
+
+/* Media query : tablet */
+@media (min-width: 600px) and (max-width: 1200px) {
+
+
+}
+
+
+
+/* Media query : laptop */
+@media (min-width: 1200px) {
+
+
+}
